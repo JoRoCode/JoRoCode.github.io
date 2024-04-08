@@ -151,9 +151,23 @@ img {
     transform: scale(1.25);
 }
 
+#contact .form-control {
+    background-color: darkslategray;
+    border-color: rgb(1, 32, 46);
+}
 
+#contact .form-control:focus {
+    border: 2px solid lawngreen;
+    box-shadow: none;
+}
 
+#contact .form-control::placeholder {
+    color: whitesmoke;
+}
 
+#contact input.form-control {
+    height: 50px;
+}
 
 
 
